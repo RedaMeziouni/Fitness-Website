@@ -53,7 +53,10 @@ body{
             p{
                 color: lighten($secondary-color,50%);
             }
-           
+            @media screen and(max-width:375px){
+                width: 90%;
+                font-size: 20px;
+            }
             button:last-child {
                 // add the value transparent to make ba transprentlly
                 background-color: transparent;
@@ -95,8 +98,16 @@ body{
                 margin-right: 30px;
                 display:none;
             }
-          
-                
+            @media screen and(max-width:375px) {
+                .checkbtn{
+                 display: block;
+                } 
+                 .navigation{ ul{
+                     visibility: hidden;
+                 }
+                    
+                 } 
+                }
             .items{
                 display: flex;
                 color:$primary-color;
@@ -132,12 +143,18 @@ body{
         display: flex;
         width: 100%;
         background-color: $secondary-color;
-      
+        @media screen and(max-width:375px) {
+            display: block;
+            
+        }
         .bottom__right{
             padding: 70px 200px;
             width: 60%;
             font-size: 25px;
-         
+            @media (max-width:375px) {
+                width: 100%;
+                padding: 70px 50px;   
+            }
             h2{
                 color:$primary-color;
             }
@@ -164,7 +181,9 @@ cursor: pointer;
         text-indent: 50px;
         border: 50px ;
         border-color: white;
-      
+        @media (max-width:375px) {
+            width: 100%;   
+        }
         time{
             padding-left: 50px; ;
         } 
