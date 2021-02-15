@@ -10,6 +10,80 @@
   margin: 20px auto;
 }
 
+.containerclass .texteh2, .containerclass .texteh5 {
+  text-align: center;
+}
+
+.containerclass .texteh2 {
+  font-size: 50px;
+}
+
+.containerclass .texteh5 {
+  color: #909090;
+  font-size: 30px;
+  margin: 0;
+}
+
+.containerclass .class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.containerclass .class h3, .containerclass .class p {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.containerclass .class .classimg {
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 10px 1px #909090;
+          box-shadow: 2px 2px 10px 1px #909090;
+}
+
+.containerclass .class .classimg img {
+  width: 590px;
+  height: 400px;
+}
+
+.containerclass .class strong {
+  color: #909090;
+}
+
+.containerclass .class .round {
+  color: #fff;
+  border-radius: 80px;
+  background: #f13a11;
+  padding: 18px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .containerclass {
+    margin-top: 55px;
+  }
+  .class {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .class .classimg {
+    margin: 0px;
+    width: 590px;
+    margin-top: 50px;
+    margin-left: -15px;
+  }
+}
+
 .fourth-section .whole-background {
   padding: 5% 0%;
   background-color: #171819;
@@ -132,7 +206,7 @@
 
 .contact .input {
   border: 1px solid #ced4da;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .contact button {
@@ -155,7 +229,7 @@
 
 .contact p {
   font-size: 22px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
   color: #909090;
 }
 
@@ -185,6 +259,165 @@ a {
   .email-phone {
     margin-top: 75px;
     margin-left: -350px;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.second-section {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  width: 100%;
+  height: 450px;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+  position: relative;
+}
+
+.second-section .article {
+  width: 355px;
+  height: 750px;
+  margin-right: 997px;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.second-section .texte {
+  margin-top: 20px;
+  line-height: 1.4em;
+  color: "Barlow Semi Condensed", sans-serif;
+}
+
+.second-section .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+  margin-left: 370px;
+  margin-top: -30px;
+}
+
+.second-section img {
+  width: 300px;
+  height: 300px;
+}
+
+.second-section .p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  width: 699px;
+  margin-left: 322px;
+  position: absolute;
+  top: 280px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-section .p #t {
+  margin-left: 62%;
+}
+
+.second-section .p #i {
+  margin-left: 57%;
+}
+
+.second-section .p #tw {
+  margin-left: 46%;
+}
+
+.second-section .p #in {
+  margin-left: 57%;
+}
+
+.second-section .name {
+  background-color: white;
+  font-size: 25px;
+  padding: 20px;
+  width: 43%;
+  margin-left: 47px;
+  -webkit-box-shadow: 6px 0 38px #d8d4d4;
+          box-shadow: 6px 0 38px #d8d4d4;
+  height: 87%;
+}
+
+.second-section small {
+  font-size: 15px;
+  color: #909090;
+}
+
+.second-section strong {
+  font-size: 36px;
+}
+
+@media (max-width: 700px) {
+  .second-section {
+    width: 155%;
+    height: 2500px;
+    padding: 30px;
+  }
+  .second-section .article {
+    width: 75%;
+    margin-left: 970px;
+    font-size: 28px;
+  }
+  .second-section .article strong {
+    font-size: 55px;
+  }
+  .second-section .images {
+    margin-top: 400px;
+    margin-left: -1180px;
+  }
+  .second-section .images img {
+    width: 640px;
+    height: 640px;
+  }
+  .second-section .images .one {
+    margin-top: 19%;
+    margin-left: 860px;
+    margin-right: 66px;
+  }
+  .second-section .images .two {
+    margin-top: 90%;
+    margin-left: -752px;
+    margin-right: -231px;
+  }
+  .second-section .p {
+    height: 100px;
+    width: 530px;
+    margin-left: 58px;
+  }
+  .second-section .p .mary {
+    margin-top: 194%;
+    width: 168%;
+    margin-left: -24%;
+    height: 120%;
+  }
+  .second-section .p .smith {
+    margin-top: 365%;
+    width: 188%;
+    margin-left: -128%;
+    height: 120%;
+  }
+  .second-section .p #tw {
+    margin-left: 46%;
+  }
+  .second-section .p .name {
+    font-size: 47px;
+    width: 116%;
+  }
+  .second-section .p small {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
