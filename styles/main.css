@@ -9,8 +9,14 @@
 }
 
 .fourth-section .whole-background {
+  padding: 5% 0%;
   background-color: #171819;
   color: #fff;
+}
+
+.fourth-section .schedule-table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fourth-section .table-headers {

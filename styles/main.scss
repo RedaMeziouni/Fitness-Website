@@ -5,6 +5,7 @@ $color-background-class: #fff;
 $color-texte-prix:#fff;
 $color-text-background: #909090;
 $table-font-size: 15px;
+$border-color: #212122;
 
 // Initialization 
 * {
@@ -20,9 +21,14 @@ $table-font-size: 15px;
 .fourth-section {
     // 1- section 4 background color 
     .whole-background {
+        padding: 5% 0%;
         background-color: #171819;
         color: $color-background-class;
     } 
+    .schedule-table {
+        margin-left: auto;
+        margin-right: auto;
+    }
     // Center headers
     .table-headers {
         text-align: center !important;
@@ -63,7 +69,7 @@ $table-font-size: 15px;
     .table .thead-color th,
     .schedule-table tr td:first-child {
       background-color: $color-background-prix;
-      border: 1px solid #212122;
+      border: 1px solid $border-color;
       color: $color-background-class;
     }
   
@@ -74,7 +80,7 @@ $table-font-size: 15px;
   
     .borders td, 
     .borders th {
-      border: 1px solid #212122;
+      border: 1px solid $border-color;
     }
   
     .borders td {
