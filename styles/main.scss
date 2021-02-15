@@ -262,12 +262,12 @@ cursor: pointer;
     .texteh5 {
         color: $color-text-background;
         font-size: 30px;
-        margin:0; 
+        padding: 50px;
     }
     .class{
         display: flex;
         justify-content: space-between;
-        padding: 20px;
+        padding: 40px;        
         h3,p{
             margin-left: 20px;
             margin-top: 10px;
@@ -278,7 +278,7 @@ cursor: pointer;
                 background-color:$color-background-class;
                 
                 img{ 
-                    width: 400px;
+                    width: 550px;
                     height: 330px;
                  
                 }
@@ -292,7 +292,7 @@ cursor: pointer;
                 border-radius: 80px;
                 background: $color-background-prix;
                 padding: 18px;
-                margin-left: 220px;
+                margin-left: 300px;
                 font-weight: bold;
             }
           }
@@ -307,7 +307,7 @@ cursor: pointer;
                 margin-top: 40px;
                 .classimg{ 
                 margin: 0px;
-                width: 590px;
+                width: 550px;
                 margin-top: 50px;
                 margin-left: -15px;
             } 

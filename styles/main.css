@@ -286,7 +286,7 @@ body {
 .containerclass .texteh5 {
   color: #909090;
   font-size: 30px;
-  margin: 0;
+  padding: 50px;
 }
 
 .containerclass .class {
@@ -296,7 +296,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
 }
 
 .containerclass .class h3, .containerclass .class p {
@@ -312,7 +312,7 @@ body {
 }
 
 .containerclass .class .classimg img {
-  width: 460px;
+  width: 550px;
   height: 330px;
 }
 
@@ -325,7 +325,7 @@ body {
   border-radius: 80px;
   background: #f13a11;
   padding: 18px;
-  margin-left: 220px;
+  margin-left: 300px;
   font-weight: bold;
 }
 
@@ -343,7 +343,7 @@ body {
   }
   .class .classimg {
     margin: 0px;
-    width: 590px;
+    width: 550px;
     margin-top: 50px;
     margin-left: -15px;
   }
