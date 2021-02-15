@@ -12,14 +12,6 @@ body {
   padding: 0;
 }
 
-<<<<<<< HEAD
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-=======
->>>>>>> a13d9eb1ca192b2efff115079db4fee7c0d7a137
 .main {
   display: -ms-grid;
   display: grid;
