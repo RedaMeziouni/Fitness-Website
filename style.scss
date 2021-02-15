@@ -150,13 +150,13 @@ body{
         .bottom__right{
             padding: 70px 200px;
             width: 60%;
-            font-size: 25px;
             @media (max-width:375px) {
                 width: 100%;
                 padding: 70px 50px;   
             }
             h2{
                 color:$primary-color;
+                text-transform: uppercase;
             }
             .lorem{
                 color: #FFF;
@@ -171,28 +171,29 @@ width: 96%;
 margin: 20px auto;
 padding: 8px;
 color: $primary-color;
+text-transform: uppercase;
 cursor: pointer;
             }
 }
-    .bottom__left{
-        width: 40%;
-        padding: 20px;
-        color: $primary-color;
-        text-indent: 50px;
-        border: 50px ;
-        border-color: white;
+.bottom__left{
+    width: 30%;
+    padding: 20px;
+    color: $primary-color;
+    text-indent: 20px;
         @media (max-width:375px) {
             width: 100%;   
         }
         time{
-            padding-left: 50px; ;
+            padding-left: 20px;
+            color: lighten($secondary-color,50%);
         } 
-h2{
-    margin-top:50px;
-}
-        h3{
-            font-size: .8rem;
+        h2{
+            margin-top:4rem;
         }
+                h3{
+                    margin-top: 20px;
+                    font-size: .8rem;
+                }
     }
 }
 }

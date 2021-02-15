@@ -190,7 +190,6 @@ body {
 .main .bottom .bottom__right {
   padding: 70px 200px;
   width: 60%;
-  font-size: 25px;
 }
 
 @media (max-width: 375px) {
@@ -202,6 +201,7 @@ body {
 
 .main .bottom .bottom__right h2 {
   color: white;
+  text-transform: uppercase;
 }
 
 .main .bottom .bottom__right .lorem {
@@ -219,16 +219,15 @@ body {
   margin: 20px auto;
   padding: 8px;
   color: white;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
 .main .bottom .bottom__left {
-  width: 40%;
+  width: 30%;
   padding: 20px;
   color: white;
-  text-indent: 50px;
-  border: 50px;
-  border-color: white;
+  text-indent: 20px;
 }
 
 @media (max-width: 375px) {
@@ -238,14 +237,16 @@ body {
 }
 
 .main .bottom .bottom__left time {
-  padding-left: 50px;
+  padding-left: 20px;
+  color: gray;
 }
 
 .main .bottom .bottom__left h2 {
-  margin-top: 50px;
+  margin-top: 4rem;
 }
 
 .main .bottom .bottom__left h3 {
+  margin-top: 20px;
   font-size: .8rem;
 }
 /*# sourceMappingURL=style.css.map */
