@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 * {
   list-style-type: none;
   text-decoration: none;
@@ -38,7 +42,7 @@
 
 .main header .content {
   position: absolute;
-  width: 40%;
+  width: 30%;
   text-align: center;
   font-size: 25px;
   top: 50%;
@@ -178,6 +182,10 @@
   color: #f13a11;
 }
 
+.main header .header-top .items .navigation .social-maidia li a i {
+  color: white;
+}
+
 .main .bottom {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -276,6 +284,7 @@
 
 .containerclass .texteh2 {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .containerclass .texteh5 {
@@ -307,8 +316,8 @@
 }
 
 .containerclass .class .classimg img {
-  width: 590px;
-  height: 400px;
+  width: 400px;
+  height: 330px;
 }
 
 .containerclass .class strong {
@@ -320,7 +329,7 @@
   border-radius: 80px;
   background: #f13a11;
   padding: 18px;
-  margin-left: 300px;
+  margin-left: 220px;
   font-weight: bold;
 }
 
@@ -420,7 +429,7 @@
   padding: 1rem;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 700px) {
   .schedule-table {
     display: block;
   }
