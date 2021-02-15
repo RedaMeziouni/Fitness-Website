@@ -526,15 +526,9 @@ a {
   }
 }
 
-.container {
-  width: 80%;
-  margin: 20px auto;
-}
-
 .second-section {
   font-family: "Barlow Semi Condensed", sans-serif;
-  width: 100%;
-  height: 450px;
+  height: 550px;
   background-color: whitesmoke;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -547,17 +541,17 @@ a {
 }
 
 .second-section .article {
-  width: 355px;
-  height: 750px;
-  margin-right: 997px;
+  width: 30%;
+  margin-right: 60%;
   position: absolute;
-  margin-top: 40px;
+  top: 14%;
 }
 
 .second-section .texte {
-  margin-top: 20px;
+  margin-top: 5%;
   line-height: 1.4em;
-  color: "Barlow Semi Condensed", sans-serif;
+  color: #909090;
+  font-size: 1.3em;
 }
 
 .second-section .images {
@@ -565,43 +559,38 @@ a {
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
-  margin-left: 370px;
+  margin-left: 30%;
   margin-top: -30px;
 }
 
 .second-section img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
 }
 
 .second-section .p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
-  width: 699px;
-  margin-left: 322px;
+  width: 50%;
+  margin-left: 28%;
   position: absolute;
-  top: 280px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  top: 72%;
 }
 
 .second-section .p #t {
-  margin-left: 62%;
+  margin-left: 78%;
 }
 
 .second-section .p #i {
-  margin-left: 57%;
+  margin-left: 74%;
 }
 
 .second-section .p #tw {
-  margin-left: 46%;
+  margin-left: 68%;
 }
 
 .second-section .p #in {
-  margin-left: 57%;
+  margin-left: 76%;
 }
 
 .second-section .name {
@@ -612,7 +601,6 @@ a {
   margin-left: 47px;
   -webkit-box-shadow: 6px 0 38px #d8d4d4;
           box-shadow: 6px 0 38px #d8d4d4;
-  height: 87%;
 }
 
 .second-section small {
@@ -627,6 +615,7 @@ a {
 @media (max-width: 700px) {
   .second-section {
     width: 155%;
+    display: block;
     height: 2500px;
     padding: 30px;
   }
