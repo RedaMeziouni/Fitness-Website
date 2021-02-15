@@ -1,22 +1,15 @@
 // import font:
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
 // Variables : 
-$primary-color:rgb(255,255,255);
-$secondary-color:rgb(0,0,0); 
-$orange-color:#f13a11;
-$color-shadow: #171819;
-$color-background-prix: #f13a11;
-$color-background-class: #fff;
-$color-texte-prix:#fff;
-$color-text-background: #909090;
+$primary-color: #fff;
+$secondary-color: #000;
+$orange-color: #f13a11;
+$shadow-color: #171819;
+$gray-text: #909090;
+$white-text: #fff;
 $table-font-size: 15px;
 $border-color: #212122;
 $BSC-font: 'Barlow Semi Condensed', sans-serif;
-$Container_Color: #171819;
-$Headers_Color: #f13a11;
-$Text-Color: #fff;
-$Spans_color: #909090;
-// $fontfamily:Arial, Helvetica, sans-serif;
 
 body {
     font-family: $BSC-font;
@@ -254,7 +247,7 @@ cursor: pointer;
         font-size: 50px;
     }
     .texteh5 {
-        color: $color-text-background;
+        color: $gray-text;
         font-size: 30px;
         margin:0; 
     }
@@ -308,15 +301,16 @@ cursor: pointer;
         }
 
 
-//!!!!!!! Reda !!!!!!!!!!!!
+// Reda Start
+
 // Schedule Table 
 .fourth-section {
     // font-family: $BSC-font;
     // 1- section 4 background color 
     .whole-background {
         padding: 5% 0%;
-        background-color: #171819;
-        color: $color-background-class;
+        background-color: $shadow-color;
+        color: $white-text;
     } 
     .schedule-table {
         margin-left: auto;
@@ -329,10 +323,10 @@ cursor: pointer;
     }
     // h5 & h2 color declaration
     .table-headers h5{
-        color: $color-text-background;
+        color: $gray-text;
     }
     .table-headers h2 {
-        color: $color-background-class;
+        color: $white-text;
     }
     // table display
     .schedule-table {
@@ -344,14 +338,14 @@ cursor: pointer;
     .schedule-table b{
         display: block;
         text-align: center;
-        color: $color-background-class;
+        color: $white-text;
     } 
     .schedule-table span {
         font-size: $table-font-size;
         display: block;
         text-align: center;
         text-transform: uppercase;
-        color: $color-text-background;
+        color: $gray-text;
     }
     .schedule-table small {
         font-size: $table-font-size;
@@ -361,9 +355,9 @@ cursor: pointer;
     }
     .table .thead-color th,
     .schedule-table tr td:first-child {
-      background-color: $color-background-prix;
+      background-color: $orange-color;
       border: 1px solid $border-color;
-      color: $color-background-class;
+      color: $white-text;
     }
   
     .schedule-table .thead-light th {
@@ -393,6 +387,9 @@ cursor: pointer;
     //     width: 80%;
     //     margin: 20px auto;
     // }
+    // Reda End !
+
+
 //Mohammed Tasks
 }
 .contact{
