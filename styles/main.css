@@ -12,11 +12,6 @@ body {
   padding: 0;
 }
 
-.container {
-  width: 80%;
-  margin: 20px auto;
-}
-
 .main {
   display: -ms-grid;
   display: grid;
