@@ -52,4 +52,29 @@
   position: relative;
   top: 12px;
 }
+
+.fourth-section .table .thead-color th,
+.fourth-section .schedule-table tr td:first-child {
+  background-color: #f13a11;
+  border: 1px solid #212122;
+  color: #fff;
+}
+
+.fourth-section .schedule-table .thead-light th {
+  border-bottom: 0;
+  text-transform: uppercase;
+}
+
+.fourth-section .borders td,
+.fourth-section .borders th {
+  border: 1px solid #212122;
+}
+
+.fourth-section .borders td {
+  padding-bottom: 22px;
+}
+
+.fourth-section .table td, .fourth-section .table th {
+  padding: 1rem;
+}
 /*# sourceMappingURL=main.css.map */

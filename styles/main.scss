@@ -60,5 +60,29 @@ $table-font-size: 15px;
         position: relative;
         top: 12px;
     }
+    .table .thead-color th,
+    .schedule-table tr td:first-child {
+      background-color: $color-background-prix;
+      border: 1px solid #212122;
+      color: $color-background-class;
+    }
+  
+    .schedule-table .thead-light th {
+      border-bottom: 0;
+      text-transform: uppercase;
+    }
+  
+    .borders td, 
+    .borders th {
+      border: 1px solid #212122;
+    }
+  
+    .borders td {
+      padding-bottom: 22px;
+    }
+  
+    .table td, .table th {
+      padding: 1rem;
+    }
 }
 
