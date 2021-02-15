@@ -257,6 +257,7 @@ cursor: pointer;
     } 
     .texteh2{
         font-size: 50px;
+        margin-bottom: 20px;
     }
     .texteh5 {
         color: $color-text-background;
@@ -277,8 +278,9 @@ cursor: pointer;
                 background-color:$color-background-class;
                 
                 img{ 
-                    width: 590px;
-                    height: 400px;  
+                    width: 400px;
+                    height: 330px;
+                 
                 }
                 box-shadow: 2px 2px 10px 1px $color-text-background;
                 }
@@ -290,7 +292,7 @@ cursor: pointer;
                 border-radius: 80px;
                 background: $color-background-prix;
                 padding: 18px;
-                margin-left: 300px;
+                margin-left: 220px;
                 font-weight: bold;
             }
           }
