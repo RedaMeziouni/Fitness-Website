@@ -280,12 +280,13 @@ body {
 
 .containerclass .texteh2 {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .containerclass .texteh5 {
   color: #909090;
   font-size: 30px;
-  margin: 0;
+  padding: 50px;
 }
 
 .containerclass .class {
@@ -295,7 +296,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
 }
 
 .containerclass .class h3, .containerclass .class p {
@@ -311,8 +312,8 @@ body {
 }
 
 .containerclass .class .classimg img {
-  width: 590px;
-  height: 400px;
+  width: 550px;
+  height: 330px;
 }
 
 .containerclass .class strong {
@@ -342,7 +343,7 @@ body {
   }
   .class .classimg {
     margin: 0px;
-    width: 590px;
+    width: 550px;
     margin-top: 50px;
     margin-left: -15px;
   }
