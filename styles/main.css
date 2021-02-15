@@ -115,6 +115,14 @@ body {
   z-index: 2;
 }
 
+@media (max-width: 375px) {
+  .main header .header-top {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+
 .main header .header-top .checkbtn {
   font-size: 30px;
   color: #f13a11;
