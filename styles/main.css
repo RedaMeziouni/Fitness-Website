@@ -1,11 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .container {
   width: 80%;
   margin: 20px auto;
+}
+
+.fourth-section {
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .fourth-section .whole-background {
@@ -82,5 +88,79 @@
 
 .fourth-section .table td, .fourth-section .table th {
   padding: 1rem;
+}
+
+.containerclass .texteh2, .containerclass .texteh5 {
+  text-align: center;
+}
+
+.containerclass .texteh2 {
+  font-size: 50px;
+}
+
+.containerclass .texteh5 {
+  color: #909090;
+  font-size: 30px;
+  margin: 0;
+}
+
+.containerclass .class {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+}
+
+.containerclass .class h3, .containerclass .class p {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.containerclass .class .classimg {
+  background-color: #fff;
+  -webkit-box-shadow: 2px 2px 10px 1px #909090;
+          box-shadow: 2px 2px 10px 1px #909090;
+}
+
+.containerclass .class .classimg img {
+  width: 590px;
+  height: 400px;
+}
+
+.containerclass .class strong {
+  color: #909090;
+}
+
+.containerclass .class .round {
+  color: #fff;
+  border-radius: 80px;
+  background: #f13a11;
+  padding: 18px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+  .containerclass {
+    margin-top: 55px;
+  }
+  .class {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .class .classimg {
+    margin: 0px;
+    width: 590px;
+    margin-top: 50px;
+    margin-left: -15px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
