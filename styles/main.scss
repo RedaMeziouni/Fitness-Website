@@ -1,3 +1,5 @@
+// import font:
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
 // Variables : 
 $color-shadow: #171819;
 $color-background-prix: #f13a11;
@@ -6,10 +8,13 @@ $color-texte-prix:#fff;
 $color-text-background: #909090;
 $table-font-size: 15px;
 $border-color: #212122;
+$BSC-font: 'Barlow Semi Condensed', sans-serif;
+
 
 // Initialization 
 * {
     box-sizing: border-box;
+    font-family: $-BSC-font;
 }
 // container properties :
 .container { 
@@ -19,6 +24,7 @@ $border-color: #212122;
 
 // Schedule Table 
 .fourth-section {
+    font-family: $BSC-font;
     // 1- section 4 background color 
     .whole-background {
         padding: 5% 0%;
