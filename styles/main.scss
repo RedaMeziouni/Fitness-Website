@@ -4,6 +4,7 @@ $color-background-prix: #f13a11;
 $color-background-class: #fff;
 $color-texte-prix:#fff;
 $color-text-background: #909090;
+$table-font-size: 15px;
 
 // Initialization 
 * {
@@ -40,10 +41,24 @@ $color-text-background: #909090;
         display: table;
         border: 0;
     }
-    // Schedule content properties
-    .schedule-table b, .schedule-table span {
+    // Schedule content properties (b/ span/ small)
+    .schedule-table b{
         display: block;
         text-align: center;
+        color: $color-background-class;
+    } 
+    .schedule-table span {
+        font-size: $table-font-size;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-text-background;
+    }
+    .schedule-table small {
+        font-size: $table-font-size;
+        text-transform: uppercase;
+        position: relative;
+        top: 12px;
     }
 }
 

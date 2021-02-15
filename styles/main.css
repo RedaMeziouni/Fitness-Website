@@ -32,8 +32,24 @@
   border: 0;
 }
 
-.fourth-section .schedule-table b, .fourth-section .schedule-table span {
+.fourth-section .schedule-table b {
   display: block;
   text-align: center;
+  color: #fff;
+}
+
+.fourth-section .schedule-table span {
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  color: #909090;
+}
+
+.fourth-section .schedule-table small {
+  font-size: 15px;
+  text-transform: uppercase;
+  position: relative;
+  top: 12px;
 }
 /*# sourceMappingURL=main.css.map */
