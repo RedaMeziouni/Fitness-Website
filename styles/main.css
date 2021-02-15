@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
 .container {
@@ -82,5 +84,11 @@
 
 .fourth-section .table td, .fourth-section .table th {
   padding: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .schedule-table {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */
