@@ -10,10 +10,6 @@
   margin: 20px auto;
 }
 
-.fourth-section {
-  font-family: "Barlow Semi Condensed", sans-serif;
-}
-
 .fourth-section .whole-background {
   padding: 5% 0%;
   background-color: #171819;
@@ -90,7 +86,12 @@
   padding: 1rem;
 }
 
-<<<<<<< HEAD
+@media screen and (max-width: 992px) {
+  .schedule-table {
+    display: block;
+  }
+}
+
 .containerclass .texteh2, .containerclass .texteh5 {
   text-align: center;
 }
@@ -162,11 +163,6 @@
     width: 590px;
     margin-top: 50px;
     margin-left: -15px;
-=======
-@media screen and (max-width: 992px) {
-  .schedule-table {
-    display: block;
->>>>>>> 99ece8d2082e6ce3a906f9c4ddd3c93f0de7ecb7
   }
 }
 /*# sourceMappingURL=main.css.map */
