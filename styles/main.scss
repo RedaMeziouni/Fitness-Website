@@ -20,11 +20,13 @@ $BSC-font: 'Barlow Semi Condensed', sans-serif;
 .container { 
     width:80%; 
     margin:20px auto;
+    // font-family: $BSC-fontserif;
 }
 
+//!!!!!!! Reda !!!!!!!!!!!!
 // Schedule Table 
 .fourth-section {
-    font-family: $BSC-font;
+    // font-family: $BSC-font;
     // 1- section 4 background color 
     .whole-background {
         padding: 5% 0%;
@@ -97,8 +99,15 @@ $BSC-font: 'Barlow Semi Condensed', sans-serif;
       padding: 1rem;
     }
 }
+// table media
+@media screen and (max-width: 992px) {
+    .schedule-table {
+        display: block;
+      }
+}
 
 
+<<<<<<< HEAD
 // third-section
 .containerclass{
     .texteh2 ,.texteh5 {
@@ -160,3 +169,5 @@ $BSC-font: 'Barlow Semi Condensed', sans-serif;
             } 
             }
         }
+=======
+>>>>>>> 99ece8d2082e6ce3a906f9c4ddd3c93f0de7ecb7
