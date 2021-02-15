@@ -9,6 +9,11 @@ $color-text-background: #909090;
 $table-font-size: 15px;
 $border-color: #212122;
 $BSC-font: 'Barlow Semi Condensed', sans-serif;
+$Container_Color: #171819;
+$Headers_Color: #f13a11;
+$Text-Color: #fff;
+$Spans_color: #909090;
+$fontfamily:Arial, Helvetica, sans-serif;
 
 
 // Initialization 
@@ -104,6 +109,80 @@ $BSC-font: 'Barlow Semi Condensed', sans-serif;
     .schedule-table {
         display: block;
       }
+    //   .container{
+    //     width: 80%;
+    //     margin: 20px auto;
+    // }
+//Mohammed Tasks
 }
+.contact{
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 1px 0px 0px $Spans_color;
+    h2{
+        font-size: 35px;
+    }
+    .contact_us{
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+        text-align: start;
+        gap: 20px;
+       }   
+    input{
+        height: 50px;
+    }
+    .input{
+         border: 1px solid #ced4da;
+         font-family: $fontfamily;
+    }
+    button{
+        height: 50px;
+        background-color: $Container_Color;
+        color: $Text-Color;
+        line-height: 2.5em;
+        &:hover{
+            background-color: $Headers_Color;
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+    .location{
+        margin-top: 35px;
+    }
+    p{
+        font-size: 22px;
+        font-family: $fontfamily;
+        color: $Spans_color;
+    }
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    color: $Spans_color;
+    }
+    .fa{
+        color: crimson;
+    }
+    a{
+        text-decoration: none;
+        color: $Spans_color;
+    }
+    @media (max-width: 700px){
+       .contact{
+        height: 80%;
+        text-align: start;
+       } 
+     .email-phone{
+        margin-top: 75px;
+        margin-left: -350px;
+     }
+    }
 
 
