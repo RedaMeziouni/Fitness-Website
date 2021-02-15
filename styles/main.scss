@@ -28,6 +28,69 @@ $Spans_color: #909090;
     // font-family: $BSC-fontserif;
 }
 
+// third-section
+.containerclass{
+    .texteh2 ,.texteh5 {
+        text-align: center;
+    } 
+    .texteh2{
+        font-size: 50px;
+    }
+    .texteh5 {
+        color: $color-text-background;
+        font-size: 30px;
+        margin:0; 
+    }
+    .class{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        h3,p{
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 20px;
+              }
+            
+              .classimg{
+                background-color:$color-background-class;
+                
+                img{ 
+                    width: 590px;
+                    height: 400px;  
+                }
+                box-shadow: 2px 2px 10px 1px $color-text-background;
+                }
+                strong{
+                color:$color-text-background;
+                }
+               .round{
+                color:$color-texte-prix;
+                border-radius: 80px;
+                background: $color-background-prix;
+                padding: 18px;
+                margin-left: 300px;
+                font-weight: bold;
+            }
+          }
+          }
+          @media screen and (max-width: 900px) {
+            .containerclass{
+                margin-top: 55px;
+            }
+            .class{
+                flex-direction: column;
+                margin-left: 0px;
+                margin-top: 40px;
+                .classimg{ 
+                margin: 0px;
+                width: 590px;
+                margin-top: 50px;
+                margin-left: -15px;
+            } 
+            }
+        }
+
+
 //!!!!!!! Reda !!!!!!!!!!!!
 // Schedule Table 
 .fourth-section {
