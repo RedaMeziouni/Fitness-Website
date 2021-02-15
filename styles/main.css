@@ -8,8 +8,32 @@
   margin: 20px auto;
 }
 
-.whole-background {
+.fourth-section .whole-background {
   background-color: #171819;
   color: #fff;
+}
+
+.fourth-section .table-headers {
+  text-align: center !important;
+  margin: 0;
+}
+
+.fourth-section .table-headers h5 {
+  color: #909090;
+}
+
+.fourth-section .table-headers h2 {
+  color: #fff;
+}
+
+.fourth-section .schedule-table {
+  text-align: center;
+  display: table;
+  border: 0;
+}
+
+.fourth-section .schedule-table b, .fourth-section .schedule-table span {
+  display: block;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

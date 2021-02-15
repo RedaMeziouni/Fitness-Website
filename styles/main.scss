@@ -14,9 +14,36 @@ $color-text-background: #909090;
     width:80%; 
     margin:20px auto;
 }
+
 // Schedule Table 
-// 1- section 4 background color 
-.whole-background {
-    background-color: #171819;
-    color: $color-background-class;
-} 
+.fourth-section {
+    // 1- section 4 background color 
+    .whole-background {
+        background-color: #171819;
+        color: $color-background-class;
+    } 
+    // Center headers
+    .table-headers {
+        text-align: center !important;
+        margin: 0;
+    }
+    // h5 & h2 color declaration
+    .table-headers h5{
+        color: $color-text-background;
+    }
+    .table-headers h2 {
+        color: $color-background-class;
+    }
+    // table display
+    .schedule-table {
+        text-align: center;
+        display: table;
+        border: 0;
+    }
+    // Schedule content properties
+    .schedule-table b, .schedule-table span {
+        display: block;
+        text-align: center;
+    }
+}
+
