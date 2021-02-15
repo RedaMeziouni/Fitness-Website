@@ -1,3 +1,97 @@
+// Variables : 
+$color-shadow: #171819;
+$color-background-prix: #f13a11;
+$color-background-class: #fff;
+$color-texte-prix:#fff;
+$color-text-background: #909090;
+$table-font-size: 15px;
+$border-color: #212122;
+
+// Initialization 
+* {
+    box-sizing: border-box;
+}
+// container properties :
+.container { 
+    width:80%; 
+    margin:20px auto;
+}
+
+// Schedule Table 
+.fourth-section {
+    // 1- section 4 background color 
+    .whole-background {
+        padding: 5% 0%;
+        background-color: #171819;
+        color: $color-background-class;
+    } 
+    .schedule-table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    // Center headers
+    .table-headers {
+        text-align: center !important;
+        margin: 0;
+    }
+    // h5 & h2 color declaration
+    .table-headers h5{
+        color: $color-text-background;
+    }
+    .table-headers h2 {
+        color: $color-background-class;
+    }
+    // table display
+    .schedule-table {
+        text-align: center;
+        display: table;
+        border: 0;
+    }
+    // Schedule content properties (b/ span/ small)
+    .schedule-table b{
+        display: block;
+        text-align: center;
+        color: $color-background-class;
+    } 
+    .schedule-table span {
+        font-size: $table-font-size;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-text-background;
+    }
+    .schedule-table small {
+        font-size: $table-font-size;
+        text-transform: uppercase;
+        position: relative;
+        top: 12px;
+    }
+    .table .thead-color th,
+    .schedule-table tr td:first-child {
+      background-color: $color-background-prix;
+      border: 1px solid $border-color;
+      color: $color-background-class;
+    }
+  
+    .schedule-table .thead-light th {
+      border-bottom: 0;
+      text-transform: uppercase;
+    }
+  
+    .borders td, 
+    .borders th {
+      border: 1px solid $border-color;
+    }
+  
+    .borders td {
+      padding-bottom: 22px;
+    }
+  
+    .table td, .table th {
+      padding: 1rem;
+    }
+}
+
 // variables class :
 //color class :
 $color-shadow: #171819;
@@ -35,7 +129,7 @@ $font-class: Arial, Helvetica, sans-serif;
             margin-left: 20px;
             margin-top: 10px;
             font-size: 20px;
-                }
+                   }
         .classimg{
             background-color:$color-background-class;
             
@@ -71,24 +165,5 @@ $font-class: Arial, Helvetica, sans-serif;
         width: 590px;
         margin-top: 50px;
     } 
-}
-  
-    .schedule-table .thead-light th {
-      border-bottom: 0;
-      text-transform: uppercase;
-    }
-  
-    .borders td, 
-    .borders th {
-      border: 1px solid $border-color;
-    }
-  
-    .borders td {
-      padding-bottom: 22px;
-    }
-  
-    .table td, .table th {
-      padding: 1rem;
     }
 }
-
