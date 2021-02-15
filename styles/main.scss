@@ -13,7 +13,7 @@ $Container_Color: #171819;
 $Headers_Color: #f13a11;
 $Text-Color: #fff;
 $Spans_color: #909090;
-$fontfamily:Arial, Helvetica, sans-serif;
+// $fontfamily:Arial, Helvetica, sans-serif;
 
 
 // Initialization 
@@ -140,7 +140,7 @@ $fontfamily:Arial, Helvetica, sans-serif;
     }
     .input{
          border: 1px solid #ced4da;
-         font-family: $fontfamily;
+         font-family: $BSC-font;
     }
     button{
         height: 50px;
@@ -158,7 +158,7 @@ $fontfamily:Arial, Helvetica, sans-serif;
     }
     p{
         font-size: 22px;
-        font-family: $fontfamily;
+        font-family: $BSC-font;
         color: $Spans_color;
     }
 }
@@ -184,5 +184,113 @@ $fontfamily:Arial, Helvetica, sans-serif;
         margin-left: -350px;
      }
     }
+    .container{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .second-section{
+        font-family: $BSC-font;
+        width: 100%;
+        height: 450px;
+        background-color:whitesmoke;
+        display: flex;
+        justify-content: center;
+    
+        padding: 30px;
+        position: relative;
+        .article{
+            width: 355px;
+            height: 750px;
+            margin-right: 997px;
+            position: absolute;
+            margin-top: 40px; }
+        .texte{
+            margin-top: 20px;
+            line-height: 1.4em;
+            color: $BSC-font;}
+        .images{
+            display: flex;
+            gap: 50px;
+            margin-left:370px;
+            margin-top: -30px;}
+        img{
+            width: 300px;
+            height: 300px;}
+        .p{
+            display: flex;
+            height: 100px;
+            width: 699px;
+            margin-left: 322px;
+            position: absolute;
+            top: 280px;
+            justify-content: space-between;
+            #t{margin-left: 62%;}
+            #i{margin-left: 57%;}
+            #tw{margin-left: 46%;}
+            #in{ margin-left: 57%;}
+        }
+        .name{
+            background-color: white;
+            font-size: 25px;
+            padding: 20px;
+            width: 43%;
+            margin-left: 47px;
+            box-shadow: 6px 0 38px rgb(216, 212, 212);
+            height: 87%;
+        }
+        small{
+            font-size: 15px;
+            color:$color-text-background;}
+        strong{font-size: 36px;}
+    }
+    @media(max-width:700px){
+        .second-section{
+            width: 155%;
+            height: 2500px;
+            padding: 30px;
+            .article{
+                width: 75%;
+                margin-left: 970px;
+                font-size: 28px;
+                 strong{font-size: 55px;}
+            }
+            .images{
+                margin-top: 400px;
+                margin-left: -1180px;
+            img{
+                width: 640px;
+                height: 640px;}
+            .one{
+                margin-top: 19%;
+                margin-left: 860px;
+                margin-right: 66px;}
+            .two{
+                margin-top: 90%;
+                margin-left: -752px;
+                margin-right: -231px;}
+            }
+            .p{
+                height: 100px;
+                width: 530px;
+                margin-left: 58px;
+                .mary{
+                    margin-top: 194%;
+                    width: 168%;
+                    margin-left: -24%;
+                    height: 120%;}
+                .smith{
+                    margin-top: 365%;
+                    width: 188%;
+                    margin-left: -128%;
+                    height: 120%;}
+                    #tw{margin-left: 46%;}
+                .name{
+                    font-size: 47px;
+                    width: 116%;}
+                small{font-size: 30px;}
+            }
+        }
+    }
+    
 
 
