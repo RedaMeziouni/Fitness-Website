@@ -21,7 +21,7 @@ body {
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-    margin: 0;
+    margin: 0; 
     padding: 0;
 }
 
@@ -393,8 +393,8 @@ cursor: pointer;
 
 //Mohammed Tasks
 /////start Mohammed//////
-
-.contact{
+// start section contact
+.fifht-section{
     width: 80%;
     height: 500px;
     text-align: center;
@@ -453,8 +453,8 @@ cursor: pointer;
         text-decoration: none;
         color: $gray-text;
     }
-    @media (max-width: 700px){
-       .contact{
+    @media (max-width: 600px){
+       .fifht-section{
         height: 80%;
         text-align: start;
        } 
@@ -465,7 +465,7 @@ cursor: pointer;
 
      
     }
-   //  second section
+   //   start second section
     .second-section{
         font-family: $BSC-font;
         height: 550px;
@@ -519,51 +519,51 @@ cursor: pointer;
     @media(max-width:700px){
         .second-section{
             width: 155%;
-            // display: block;
-            // flex-direction: column;
-            // height: 2500px;
-            // padding: 30px;
-            // .article{
-            //     width: 75%;
-            //     margin-left: 970px;
-            //     font-size: 28px;
-            //      strong{font-size: 55px;}
-            // }
-            // .images{
-            //     margin-top: 400px;
-            //     margin-left: -1180px;
-            // img{
-            //     width: 640px;
-            //     height: 640px;}
-            // .one{
-            //     margin-top: 19%;
-            //     margin-left: 860px;
-            //     margin-right: 66px;}
-            // .two{
-            //     margin-top: 90%;
-            //     margin-left: -752px;
-            //     margin-right: -231px;}
-            // }
-            // .p{
-            //     height: 100px;
-            //     width: 530px;
-            //     margin-left: 58px;
-            //     .mary{
-            //         margin-top: 194%;
-            //         width: 168%;
-            //         margin-left: -24%;
-            //         height: 120%;}
-            //     .smith{
-            //         margin-top: 365%;
-            //         width: 188%;
-            //         margin-left: -128%;
-            //         height: 120%;}
-            //         #tw{margin-left: 46%;}
-            //     .name{
-            //         font-size: 47px;
-            //         width: 116%;}
-            //     small{font-size: 30px;}
-            // }
+            display: block;
+            flex-direction: column;
+            height: 2500px;
+            padding: 30px;
+            .article{
+                width: 75%;
+                margin-left: 970px;
+                font-size: 28px;
+                 strong{font-size: 55px;}
+            }
+            .images{
+                margin-top: 400px;
+                margin-left: -1180px;
+            img{
+                width: 640px;
+                height: 640px;}
+            .one{
+                margin-top: 19%;
+                margin-left: 860px;
+                margin-right: 66px;}
+            .two{
+                margin-top: 90%;
+                margin-left: -752px;
+                margin-right: -231px;}
+            }
+            .p{
+                height: 100px;
+                width: 530px;
+                margin-left: 58px;
+                .mary{
+                    margin-top: 194%;
+                    width: 168%;
+                    margin-left: -24%;
+                    height: 120%;}
+                .smith{
+                    margin-top: 365%;
+                    width: 188%;
+                    margin-left: -128%;
+                    height: 120%;}
+                    #tw{margin-left: 46%;}
+                .name{
+                    font-size: 47px;
+                    width: 116%;}
+                small{font-size: 30px;}
+            }
         }
     }
     ///// End Mohammed//////

@@ -431,7 +431,7 @@ body {
   }
 }
 
-.contact {
+.fifht-section {
   width: 80%;
   height: 500px;
   text-align: center;
@@ -448,11 +448,11 @@ body {
           box-shadow: 0px 1px 0px 0px #909090;
 }
 
-.contact h2 {
+.fifht-section h2 {
   font-size: 35px;
 }
 
-.contact .contact_us {
+.fifht-section .contact_us {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -465,34 +465,34 @@ body {
   gap: 20px;
 }
 
-.contact input {
+.fifht-section input {
   height: 50px;
 }
 
-.contact .input {
+.fifht-section .input {
   border: 1px solid #ced4da;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-.contact button {
+.fifht-section button {
   height: 50px;
   background-color: #171819;
   color: #fff;
   line-height: 2.5em;
 }
 
-.contact button:hover {
+.fifht-section button:hover {
   background-color: #f13a11;
   -webkit-transition: .5s;
   transition: .5s;
   cursor: pointer;
 }
 
-.contact .location {
+.fifht-section .location {
   margin-top: 35px;
 }
 
-.contact p {
+.fifht-section p {
   font-size: 22px;
   font-family: "Barlow Semi Condensed", sans-serif;
   color: #909090;
@@ -516,8 +516,8 @@ a {
   color: #909090;
 }
 
-@media (max-width: 700px) {
-  .contact {
+@media (max-width: 600px) {
+  .fifht-section {
     height: 80%;
     text-align: start;
   }
@@ -616,6 +616,66 @@ a {
 @media (max-width: 700px) {
   .second-section {
     width: 155%;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 2500px;
+    padding: 30px;
+  }
+  .second-section .article {
+    width: 75%;
+    margin-left: 970px;
+    font-size: 28px;
+  }
+  .second-section .article strong {
+    font-size: 55px;
+  }
+  .second-section .images {
+    margin-top: 400px;
+    margin-left: -1180px;
+  }
+  .second-section .images img {
+    width: 640px;
+    height: 640px;
+  }
+  .second-section .images .one {
+    margin-top: 19%;
+    margin-left: 860px;
+    margin-right: 66px;
+  }
+  .second-section .images .two {
+    margin-top: 90%;
+    margin-left: -752px;
+    margin-right: -231px;
+  }
+  .second-section .p {
+    height: 100px;
+    width: 530px;
+    margin-left: 58px;
+  }
+  .second-section .p .mary {
+    margin-top: 194%;
+    width: 168%;
+    margin-left: -24%;
+    height: 120%;
+  }
+  .second-section .p .smith {
+    margin-top: 365%;
+    width: 188%;
+    margin-left: -128%;
+    height: 120%;
+  }
+  .second-section .p #tw {
+    margin-left: 46%;
+  }
+  .second-section .p .name {
+    font-size: 47px;
+    width: 116%;
+  }
+  .second-section .p small {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
