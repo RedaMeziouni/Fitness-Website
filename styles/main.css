@@ -49,7 +49,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: white;
+  color: #fff;
   z-index: 1;
 }
 
@@ -96,18 +96,18 @@ body {
 }
 
 .main header .content button:last-child a:hover {
-  background-color: white;
+  background-color: #fff;
 }
 
 .main header .content a {
-  color: white;
+  color: #fff;
   font-size: .8rem;
   margin-right: 4px;
 }
 
 .main header .header-top {
   width: 100%;
-  background-color: black;
+  background-color: #000;
   height: 70px;
   position: fixed;
   top: 0;
@@ -138,7 +138,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
+  color: #fff;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -174,7 +174,7 @@ body {
 }
 
 .main header .header-top .items .navigation ul li a {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -187,7 +187,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  background-color: black;
+  background-color: #000;
 }
 
 @media screen and (max-width: 375px) {
@@ -219,7 +219,7 @@ body {
 }
 
 .main .bottom .bottom__right h2 {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   line-height: 2;
 }
@@ -234,7 +234,7 @@ body {
   width: 96%;
   margin: 20px auto;
   padding: 8px;
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -242,7 +242,7 @@ body {
 .main .bottom .bottom__left {
   width: 30%;
   padding: 20px;
-  color: white;
+  color: #fff;
   text-indent: 20px;
 }
 
@@ -280,12 +280,13 @@ body {
 
 .containerclass .texteh2 {
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .containerclass .texteh5 {
   color: #909090;
   font-size: 30px;
-  margin: 0;
+  padding: 50px;
 }
 
 .containerclass .class {
@@ -295,7 +296,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
 }
 
 .containerclass .class h3, .containerclass .class p {
@@ -311,8 +312,8 @@ body {
 }
 
 .containerclass .class .classimg img {
-  width: 590px;
-  height: 400px;
+  width: 550px;
+  height: 330px;
 }
 
 .containerclass .class strong {
@@ -342,7 +343,7 @@ body {
   }
   .class .classimg {
     margin: 0px;
-    width: 590px;
+    width: 550px;
     margin-top: 50px;
     margin-left: -15px;
   }
@@ -507,7 +508,7 @@ body {
 }
 
 .fa {
-  color: crimson;
+  color: #f13a11;
 }
 
 a {
@@ -594,7 +595,7 @@ a {
 }
 
 .second-section .name {
-  background-color: white;
+  background-color: #fff;
   font-size: 25px;
   padding: 20px;
   width: 43%;
@@ -615,62 +616,6 @@ a {
 @media (max-width: 700px) {
   .second-section {
     width: 155%;
-    display: block;
-    height: 2500px;
-    padding: 30px;
-  }
-  .second-section .article {
-    width: 75%;
-    margin-left: 970px;
-    font-size: 28px;
-  }
-  .second-section .article strong {
-    font-size: 55px;
-  }
-  .second-section .images {
-    margin-top: 400px;
-    margin-left: -1180px;
-  }
-  .second-section .images img {
-    width: 640px;
-    height: 640px;
-  }
-  .second-section .images .one {
-    margin-top: 19%;
-    margin-left: 860px;
-    margin-right: 66px;
-  }
-  .second-section .images .two {
-    margin-top: 90%;
-    margin-left: -752px;
-    margin-right: -231px;
-  }
-  .second-section .p {
-    height: 100px;
-    width: 530px;
-    margin-left: 58px;
-  }
-  .second-section .p .mary {
-    margin-top: 194%;
-    width: 168%;
-    margin-left: -24%;
-    height: 120%;
-  }
-  .second-section .p .smith {
-    margin-top: 365%;
-    width: 188%;
-    margin-left: -128%;
-    height: 120%;
-  }
-  .second-section .p #tw {
-    margin-left: 46%;
-  }
-  .second-section .p .name {
-    font-size: 47px;
-    width: 116%;
-  }
-  .second-section .p small {
-    font-size: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
