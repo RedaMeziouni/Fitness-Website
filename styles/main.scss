@@ -29,6 +29,7 @@ body {
 .main{
     display: grid;
     grid-template-rows:1fr min-content;
+    
     header{
         background-image: url('../images/hero-bg.jpg');
         background-repeat: no-repeat;
@@ -49,9 +50,9 @@ body {
     }
         .content{
             position: absolute;
-            width:40%;
+            width:25%;
             text-align: center;
-            font-size: 25px;
+            font-size: 30px;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
@@ -80,18 +81,14 @@ body {
                 border-width: 1px;
                 border-color:$orange-color;
                 height: 30px;
-                width: 25%;
+                width: 30%;
                 border-radius: 5px;
                 margin-left: 2rem;
                 text-transform: uppercase;
                 @media screen and(max-width:375px){
                     width: 50%;
                 }
-                a{
-                    color: $orange-color;
-                   &:hover{
-                    background-color:$primary-color;
-                   } 
+               
                 }
             }
             a{
@@ -156,6 +153,15 @@ body {
                             }
                         }
                     }
+                    ul{
+                        li{
+                            a{
+                                i{
+                                    color: $primary-color;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -171,7 +177,7 @@ body {
         .bottom__right{
             padding: 70px 200px;
             width: 60%;
-            font-size: .9rem;
+            font-size: 2rem;
             h5{
                 color:darken($primary-color,10%)
             }
@@ -182,6 +188,7 @@ body {
                 width: 100%;
                 padding: 10px 50px;   
                 margin-top: 15px;
+                font-size: .8rem;
             }
             h2{
                 color:$primary-color;
@@ -198,19 +205,21 @@ body {
             button{
 border: none;
 background-color: $orange-color;
-width: 96%;
+width: 80%;
+height: 50px;
 margin: 20px auto;
 padding: 8px;
 color: $primary-color;
 text-transform: uppercase;
 cursor: pointer;
-            }
+           }
 }
 .bottom__left{
     width: 30%;
     padding: 20px;
     color: $primary-color;
     text-indent: 20px;
+    font-size: 20px;
     h2{
         margin-top:4rem;
     }
@@ -236,7 +245,7 @@ cursor: pointer;
        
     }
 }
-}
+
 
 // third-section
 .containerclass{

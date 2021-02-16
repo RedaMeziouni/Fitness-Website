@@ -42,9 +42,9 @@ body {
 
 .main header .content {
   position: absolute;
-  width: 40%;
+  width: 25%;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -79,7 +79,7 @@ body {
   border-width: 1px;
   border-color: #f13a11;
   height: 30px;
-  width: 25%;
+  width: 30%;
   border-radius: 5px;
   margin-left: 2rem;
   text-transform: uppercase;
@@ -91,21 +91,13 @@ body {
   }
 }
 
-.main header .content button:last-child a {
-  color: #f13a11;
-}
-
-.main header .content button:last-child a:hover {
-  background-color: #fff;
-}
-
-.main header .content a {
+.main header a {
   color: #fff;
   font-size: .8rem;
   margin-right: 4px;
 }
 
-.main header .header-top {
+.main .header-top {
   width: 100%;
   background-color: #000;
   height: 70px;
@@ -115,7 +107,7 @@ body {
   z-index: 2;
 }
 
-.main header .header-top .checkbtn {
+.main .header-top .checkbtn {
   font-size: 30px;
   color: #f13a11;
   float: right;
@@ -126,15 +118,15 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  .main header .header-top .checkbtn {
+  .main .header-top .checkbtn {
     display: block;
   }
-  .main header .header-top .navigation ul {
+  .main .header-top .navigation ul {
     visibility: hidden;
   }
 }
 
-.main header .header-top .items {
+.main .header-top .items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,39 +142,43 @@ body {
           justify-content: space-between;
 }
 
-.main header .header-top .items .logo {
+.main .header-top .items .logo {
   font-size: 28px;
   font-weight: bold;
   padding: 15px 0 0;
 }
 
-.main header .header-top .items .navigation {
+.main .header-top .items .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main header .header-top .items .navigation ul {
+.main .header-top .items .navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 15px 0 0;
 }
 
-.main header .header-top .items .navigation ul li {
+.main .header-top .items .navigation ul li {
   margin-left: 20px;
 }
 
-.main header .header-top .items .navigation ul li a {
+.main .header-top .items .navigation ul li a {
   color: #fff;
   text-transform: uppercase;
 }
 
-.main header .header-top .items .navigation ul li a:hover {
+.main .header-top .items .navigation ul li a:hover {
   color: #f13a11;
 }
 
-.main .bottom {
+.main .header-top .items .navigation ul li a i {
+  color: #fff;
+}
+
+.bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,47 +187,49 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-  .main .bottom {
+  .bottom {
     display: block;
   }
 }
 
-.main .bottom .bottom__right {
+.bottom .bottom__right {
   padding: 70px 200px;
   width: 60%;
-  font-size: .9rem;
+  font-size: 2rem;
 }
 
-.main .bottom .bottom__right h5, .main .bottom .bottom__right P {
+.bottom .bottom__right h5, .bottom .bottom__right P {
   color: #e6e6e6;
 }
 
-.main .bottom .bottom__right p {
+.bottom .bottom__right p {
   color: gray;
 }
 
 @media (max-width: 375px) {
-  .main .bottom .bottom__right {
+  .bottom .bottom__right {
     width: 100%;
     padding: 10px 50px;
     margin-top: 15px;
+    font-size: .8rem;
   }
 }
 
-.main .bottom .bottom__right h2 {
+.bottom .bottom__right h2 {
   color: #fff;
   text-transform: uppercase;
   line-height: 2;
 }
 
-.main .bottom .bottom__right h5, .main .bottom .bottom__right P {
+.bottom .bottom__right h5, .bottom .bottom__right P {
   line-height: 1.5;
 }
 
-.main .bottom .bottom__right button {
+.bottom .bottom__right button {
   border: none;
   background-color: #f13a11;
-  width: 96%;
+  width: 80%;
+  height: 50px;
   margin: 20px auto;
   padding: 8px;
   color: #fff;
@@ -239,37 +237,38 @@ body {
   cursor: pointer;
 }
 
-.main .bottom .bottom__left {
+.bottom .bottom__left {
   width: 30%;
   padding: 20px;
   color: #fff;
   text-indent: 20px;
+  font-size: 20px;
 }
 
-.main .bottom .bottom__left h2 {
+.bottom .bottom__left h2 {
   margin-top: 4rem;
 }
 
-.main .bottom .bottom__left h3 {
+.bottom .bottom__left h3 {
   margin-top: 20px;
   font-size: .8rem;
 }
 
 @media (max-width: 375px) {
-  .main .bottom .bottom__left {
+  .bottom .bottom__left {
     width: 100%;
     padding: 5px;
   }
-  .main .bottom .bottom__left h2 {
+  .bottom .bottom__left h2 {
     margin-top: 1rem;
   }
-  .main .bottom .bottom__left h3 {
+  .bottom .bottom__left h3 {
     margin-top: 20px;
     font-size: 1rem;
   }
 }
 
-.main .bottom .bottom__left time {
+.bottom .bottom__left time {
   padding-left: 20px;
   color: gray;
 }
@@ -365,7 +364,7 @@ body {
   margin: 0;
 }
 
-.fourth-section .table-headers h5, .fourth-section .table-headers .main .bottom .bottom__right P, .main .bottom .bottom__right .fourth-section .table-headers P {
+.fourth-section .table-headers h5, .fourth-section .table-headers .bottom .bottom__right P, .bottom .bottom__right .fourth-section .table-headers P {
   color: #909090;
 }
 
