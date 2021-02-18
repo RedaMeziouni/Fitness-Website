@@ -10,6 +10,12 @@ $white-text: #fff;
 $table-font-size: 15px;
 $border-color: #212122;
 $BSC-font: 'Barlow Semi Condensed', sans-serif;
+$primary-color: #fff;
+$secondary-color: #000;
+$orange-color: #f13a11;
+$gray-text: #909090e1;
+$BSC-font: 'Barlow Semi Condensed', sans-serif;
+$font-size: 1em ;
 
 
 body {
@@ -252,69 +258,74 @@ cursor: pointer;
 
 
 // third-section
-.containerclass{
-    .texteh2 ,.texteh5 {
+//<!-- khalid -->
+ 
+// 
+.container1{
+    font-family:$BSC-font;
+    &__classh2{
         text-align: center;
-    } 
-    .texteh2{
-        font-size: 50px;
-        margin-bottom: 20px;
+        font-size: $font-size*5;
     }
-    .texteh5 {
+    &__classh6{
         color: $gray-text;
-        font-size: 30px;
-        padding: 50px;
+        text-align: center;
+        font-size:$font-size*2;
     }
-    .class{
+    &__row{
         display: flex;
-        justify-content: space-between;
-        padding: 40px;        
-        h3,p{
-            margin-left: 20px;
-            margin-top: 10px;
-            font-size: 20px;
-              }
-            
-              .classimg{
-                background-color:$primary-color;
-                
-                img{ 
-                    width: 550px;
-                    height: 330px;
-                 
-                }
-                box-shadow: 2px 2px 10px 1px $gray-text;
-                }
-                strong{
-                color:$gray-text;
-                }
-               .round{
-                color:$primary-color;
-                border-radius: 80px;
-                background: $orange-color;
-                padding: 18px;
-                margin-left: 300px;
-                font-weight: bold;
+        justify-content: space-around;
+        .classYoga , .classAreobic,.classCardio{
+            &__img{ 
+                width: 100%;
             }
-          }
-          }
-          @media screen and (max-width: 900px) {
-            .containerclass{
-                margin-top: 55px;
+            background-color:$primary-color;
+            box-shadow: 2px 2px 10px 1px $gray-text ;
+            padding: 1em;
+            margin: 1em;
+            width: 100%;
+            &__classh3{
+                font-size: $font-size*2;
             }
-            .class{
-                flex-direction: column;
-                margin-left: 0px;
-                margin-top: 40px;
-                .classimg{ 
-                margin: 0px;
-                width: 550px;
-                margin-top: 50px;
-                margin-left: -15px;
-            } 
+            &__texte{
+                font-size:2em;
+                .classstrong{
+                    color: $gray-text;
+                } 
+                .round{
+                    background-color: $orange-color;
+                    color: $primary-color ;
+                    border-radius: 50%;
+                    padding: 1em;
+                    font-weight: bold;
+                    float: right;
+                }  
             }
         }
-
+    }
+}
+@media screen and (max-width: 700px) {
+    .container1{
+        &__classh2{
+            font-size: $font-size*2;
+            margin-right: 35%;
+        }
+        &__classh6{
+            color: $gray-text;
+            font-size:$font-size;
+            margin-right: 35%;
+            margin-top: 5%;
+        
+          }
+    }
+    .container1__row{ 
+        display: block;
+    }
+    .container1__row ,.classYoga , .classAreobic,.classCardio{
+        width: 63%;
+    }
+ }
+// <!-- End Values Section -->
 
 // Reda Start
 

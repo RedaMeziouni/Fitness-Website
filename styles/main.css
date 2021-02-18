@@ -273,78 +273,79 @@ body {
   color: gray;
 }
 
-.containerclass .texteh2, .containerclass .texteh5 {
+.container1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container1__classh2 {
   text-align: center;
+  font-size: 5em;
 }
 
-.containerclass .texteh2 {
-  font-size: 50px;
-  margin-bottom: 20px;
+.container1__classh6 {
+  color: #909090e1;
+  text-align: center;
+  font-size: 2em;
 }
 
-.containerclass .texteh5 {
-  color: #909090;
-  font-size: 30px;
-  padding: 50px;
-}
-
-.containerclass .class {
+.container1__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.containerclass .class h3, .containerclass .class p {
-  margin-left: 20px;
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.containerclass .class .classimg {
+.container1__row .classYoga, .container1__row .classAreobic, .container1__row .classCardio {
   background-color: #fff;
-  -webkit-box-shadow: 2px 2px 10px 1px #909090;
-          box-shadow: 2px 2px 10px 1px #909090;
+  -webkit-box-shadow: 2px 2px 10px 1px #909090e1;
+          box-shadow: 2px 2px 10px 1px #909090e1;
+  padding: 1em;
+  margin: 1em;
+  width: 100%;
 }
 
-.containerclass .class .classimg img {
-  width: 550px;
-  height: 330px;
+.container1__row .classYoga__img, .container1__row .classAreobic__img, .container1__row .classCardio__img {
+  width: 100%;
 }
 
-.containerclass .class strong {
-  color: #909090;
+.container1__row .classYoga__classh3, .container1__row .classAreobic__classh3, .container1__row .classCardio__classh3 {
+  font-size: 2em;
 }
 
-.containerclass .class .round {
+.container1__row .classYoga__texte, .container1__row .classAreobic__texte, .container1__row .classCardio__texte {
+  font-size: 2em;
+}
+
+.container1__row .classYoga__texte .classstrong, .container1__row .classAreobic__texte .classstrong, .container1__row .classCardio__texte .classstrong {
+  color: #909090e1;
+}
+
+.container1__row .classYoga__texte .round, .container1__row .classAreobic__texte .round, .container1__row .classCardio__texte .round {
+  background-color: #f13a11;
   color: #fff;
-  border-radius: 80px;
-  background: #f13a11;
-  padding: 18px;
-  margin-left: 300px;
+  border-radius: 50%;
+  padding: 1em;
   font-weight: bold;
+  float: right;
 }
 
-@media screen and (max-width: 900px) {
-  .containerclass {
-    margin-top: 55px;
+@media screen and (max-width: 700px) {
+  .container1__classh2 {
+    font-size: 2em;
+    margin-right: 35%;
   }
-  .class {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 0px;
-    margin-top: 40px;
+  .container1__classh6 {
+    color: #909090e1;
+    font-size: 1em;
+    margin-right: 35%;
+    margin-top: 5%;
   }
-  .class .classimg {
-    margin: 0px;
-    width: 550px;
-    margin-top: 50px;
-    margin-left: -15px;
+  .container1__row {
+    display: block;
+  }
+  .container1__row, .classYoga, .classAreobic, .classCardio {
+    width: 63%;
   }
 }
 
@@ -365,7 +366,7 @@ body {
 }
 
 .fourth-section .table-headers h5, .fourth-section .table-headers .bottom .bottom__right P, .bottom .bottom__right .fourth-section .table-headers P {
-  color: #909090;
+  color: #909090e1;
 }
 
 .fourth-section .table-headers h2 {
@@ -389,7 +390,7 @@ body {
   display: block;
   text-align: center;
   text-transform: uppercase;
-  color: #909090;
+  color: #909090e1;
 }
 
 .fourth-section .schedule-table small {
@@ -442,8 +443,8 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-family: "Barlow Semi Condensed", sans-serif;
-  -webkit-box-shadow: 0px 1px 0px 0px #909090;
-          box-shadow: 0px 1px 0px 0px #909090;
+  -webkit-box-shadow: 0px 1px 0px 0px #909090e1;
+          box-shadow: 0px 1px 0px 0px #909090e1;
 }
 
 .fifht-section h2 {
@@ -488,7 +489,7 @@ body {
 .fifht-section p {
   font-size: 1.5em;
   font-family: "Barlow Semi Condensed", sans-serif;
-  color: #909090;
+  color: #909090e1;
 }
 
 .site-footer {
@@ -501,7 +502,7 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  color: #909090;
+  color: #909090e1;
 }
 
 .fa {
@@ -510,7 +511,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #909090;
+  color: #909090e1;
 }
 
 @media (max-width: 600px) {
@@ -571,7 +572,7 @@ a {
 
 .second-section__description p {
   font-size: 1.3em;
-  color: #909090;
+  color: #909090e1;
   padding: 2%;
 }
 
@@ -647,7 +648,7 @@ a {
 }
 
 .second-section__images small {
-  color: #909090;
+  color: #909090e1;
   font-size: .6em;
 }
 
