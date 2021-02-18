@@ -409,176 +409,138 @@ cursor: pointer;
 // start section contact
 .fifht-section{
     width: 80%;
-    height: 500px;
-    text-align: center;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 50px auto;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:$BSC-font;
     box-shadow: 0px 1px 0px 0px $gray-text;
-    h2{
-        font-size: 35px;
-    }
-    .contact_us{
+    h2{ font-size: 2em;}
+
+    &__contact_us{
         display: flex;
         flex-direction: column;
-        width: 460px;
         text-align: start;
-        gap: 20px;
+        gap: 1.5em;
        }   
-    input{
-        height: 50px;
-    }
-    .input{
-         border: 1px solid #ced4da;
-         font-family: $BSC-font;
-    }
-    button{
-        height: 50px;
+        input{height: 4em; 
+            border: .2em solid #909090;} 
+
+        button{
+        height: 12%;
         background-color: $shadow-color;
         color: $primary-color;
-        line-height: 2.5em;
+        border: 1px solid #ced4da;
         &:hover{
             background-color: $orange-color;
             transition: .5s;
             cursor: pointer;
         }
     }
-    .location{
-        margin-top: 35px;
+    &__location{
+        margin-top: 5%;
     }
-    p{
-        font-size: 22px;
+
+        p{
+        font-size: 1.5em;
         font-family: $BSC-font;
         color: $gray-text;
-    }
+        }
 }
-.row{
+.site-footer{margin:5% ;}
+
+    .row{
     display: flex;
     justify-content: space-around;
     color: $gray-text;
     }
-    .fa{
-        color: $orange-color;
-    }
-    a{
+        .fa{color: $orange-color;}
+         a{
         text-decoration: none;
         color: $gray-text;
-    }
+        }
     @media (max-width: 600px){
        .fifht-section{
         height: 80%;
         text-align: start;
-       } 
-     .email-phone{
-        margin-top: 75px;
-        margin-left: -350px;
-     }
-
-     
-    }
-   //   start second section
-    .second-section{
-        font-family: $BSC-font;
-        height: 550px;
-        background-color:whitesmoke;
+        } 
+       .row{
+        text-align: center;
         display: flex;
-        justify-content: center;
-        padding: 30px;
-        position: relative;
-        .article{
-            width: 30%;
-            margin-right: 60%;
-            position: absolute;
-            top: 14%; }
-        .texte{
-            margin-top: 5%;
-            line-height: 1.4em;
-            color: $gray-text;
+        flex-direction: column;
+        }
+    }
+    // /   start second section
+    .second-section{
+          display: flex;
+          background-color: whitesmoke;
+          font-family: $BSC-font;
+             @media(max-width:600px){
+                display: flex;
+                flex-direction: column;
+                height: 150%;
+                gap: 3%;
+            }
+    
+        @mixin team {
+            height: 90px;
+            display: flex;
+            justify-content: space-between;
             font-size: 1.3em;
+            align-items: center;
+            background-color: $primary-color;
+            box-shadow:  6px 0 38px rgb(216, 212, 212);
+            padding: 0% 5%;
+            
         }
-        .images{
-            display: flex;
-            gap: 50px;
-            margin-left:30%;
-            margin-top: -30px;
-        }
-        img{width: 400px;}
-        .p{
-            display: flex;
-            width: 50%;
-            margin-left: 28%;
-            position: absolute;
-            top: 72%;
-            #t{margin-left: 78%;}
-            #i{margin-left: 74%;}
-            #tw{margin-left: 68%;}
-            #in{ margin-left: 76%;}
-        }
-        .name{
-            background-color:$primary-color;
-            font-size: 25px;
-            padding: 20px;
-            width: 43%;
-            margin-left: 47px;
-            box-shadow: 6px 0 38px rgb(216, 212, 212);
-        }
-        small{
-            font-size: 15px;
-            color:$gray-text;}
-        strong{font-size: 36px;}
-    }
-    @media(max-width:700px){
-        .second-section{
-            width: 155%;
-            display: block;
-            flex-direction: column;
-            height: 2500px;
-            padding: 30px;
-            .article{
-                width: 75%;
-                margin-left: 970px;
-                font-size: 28px;
-                 strong{font-size: 55px;}
+       &__description{
+           width: 30%;
+           margin: 10%;
+            h2{font-size: 2em;
+                margin-left: 2%; 
+                    @media(max-width:600px){
+                     margin-left: 27%;
+                     width: 145%;
+                    }
             }
-            .images{
-                margin-top: 400px;
-                margin-left: -1180px;
+           p{font-size: 1.3em;
+              color: $gray-text;
+              padding: 2%;
+                @media(max-width:600px){
+                  width: 230%;
+                  height: 150px;
+                  margin-left: 25%;
+                }
+            }
+        }
+       &__images{
+          display: flex;
+          align-items: center;
+          gap: 80px;
             img{
-                width: 640px;
-                height: 640px;}
-            .one{
-                margin-top: 19%;
-                margin-left: 860px;
-                margin-right: 66px;}
-            .two{
-                margin-top: 90%;
-                margin-left: -752px;
-                margin-right: -231px;}
+              width: 400px;
+              height: 400px;
             }
-            .p{
-                height: 100px;
-                width: 530px;
-                margin-left: 58px;
-                .mary{
-                    margin-top: 194%;
-                    width: 168%;
-                    margin-left: -24%;
-                    height: 120%;}
-                .smith{
-                    margin-top: 365%;
-                    width: 188%;
-                    margin-left: -128%;
-                    height: 120%;}
-                    #tw{margin-left: 46%;}
-                .name{
-                    font-size: 47px;
-                    width: 116%;}
-                small{font-size: 30px;}
+              @media(max-width:600px){
+                display: flex;
+                flex-direction: column;
+              }
+          &--s{@include team;}
+    
+          &--m{ @include team;}
+       
+            small{
+               color: $gray-text;
+               font-size: .6em;
+            }
+            .icon{
+               display: flex;
+               flex-direction: column;
+               gap: 35%;
+               height: 60%;
             }
         }
     }
-    ///// End Mohammed//////
 
 
